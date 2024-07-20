@@ -60,21 +60,21 @@
 
 <h2>NICE Framework KSAs</h2>
 <ul>
-<li>K0427 - Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP).</li>
+<li>K0427: Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP).</li>
 <br>
-<li>S0138 - Skill in using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li>
+<li>S0138: Skill in using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li>
 <br>
-<li>K0018 - Knowledge of encryption algorithms.</li>
+<li>K0018: Knowledge of encryption algorithms.</li>
 <br>
-<li>K0624 - Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list)</li>
+<li>K0624: Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list)</li>
 <br>
-<li>K0135 - Knowledge of web filtering technologies.</li>
+<li>K0135: Knowledge of web filtering technologies.</li>
 <br>
-<li>K0398 - Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML).</li>
+<li>K0398: Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML).</li>
 <br>
-<li>K0444 - Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP).</li>
+<li>K0444: Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP).</li>
 <br>
-<li>K0447 - Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http).</li> 
+<li>K0447: Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http).</li> 
 
 </ul>
 
@@ -188,16 +188,38 @@ Web vulnerabilities are flaws or weaknesses in a web application that allow atta
     </ul>  
  </ul>
 
+<h2> Conclusion</h2>
+Understanding web vulnerabilities is critical for maintaining the security and integrity of web applications and protecting sensitive data from unauthorized access and exploitation. Knowledge of various vulnerabilities, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF), enables security professionals to identify and mitigate potential risks before they can be exploited by malicious actors. By recognizing and addressing these weaknesses, organizations can safeguard their systems against data breaches, maintain user trust, and comply with regulatory requirements. Proactively addressing web vulnerabilities not only enhances the overall security posture of applications but also helps prevent costly security incidents and ensures a safe and reliable experience for users.
 
 
-
-
-
-
-<h2>5. Conclusion</h2>
-<p1></p1>
+ <h2>Definitions</h2>
+ <ul>
+<li><b>Web Vulnerability:</b> A weakness or flaw in a web application or website that can be exploited by attackers to compromise security or gain unauthorized access.<br>
 <br>
- 
+
+<li><b>SQLi (SQL Injection):</b> A security vulnerability that occurs when an attacker inserts malicious SQL queries into input fields, potentially allowing unauthorized access to or manipulation of a database.<br>
+<br>
+
+<li><b>XSS (Cross-Site Scripting):</b> A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, which can lead to data theft, session hijacking, or other security issues.<br>
+<br>
+
+<li><b>CSRF (Cross-Site Request Forgery):</b> An attack where an attacker tricks a user into performing unintended actions on a website where they are authenticated, potentially leading to unauthorized operations.<br>
+<br>
+
+<li><b>Input Validation:</b> The process of verifying that user input is correct, safe, and meets the required format before processing it, to prevent malicious data from causing security issues.<br>
+<br>
+
+<li><b>Output Encoding:</b> The practice of converting data into a safe format before displaying it in a web application to prevent execution of malicious scripts and mitigate XSS attacks.<br>
+<br>
+
+<li><b>SSL (Secure Sockets Layer):</b> A deprecated cryptographic protocol that was used to establish a secure, encrypted connection between a web server and a browser.<br>
+<br>
+
+<li><b>TLS (Transport Layer Security):</b> The successor to SSL, a cryptographic protocol designed to provide secure and encrypted communication over the internet.<br>
+<br>
+
+<li><b>Session Management:</b> The handling of user sessions within a web application, including the creation, maintenance, and termination of sessions to ensure security and user authentication.
+ </ul>
 
 
 <h2> Presentation</h2>
@@ -206,6 +228,6 @@ Web vulnerabilities are flaws or weaknesses in a web application that allow atta
 <h2> Hands-On Labs</h2>
 <a href="https://docs.google.com/presentation/d/1Ayf0z8s8oi1HqZ6c4PgZhbpuVNyN27tQ/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true">Fuzzing Activity</a><br>
 <br>
-
+<h2>Games</h2>
 
 <h2>Additonal Resources</h2>
